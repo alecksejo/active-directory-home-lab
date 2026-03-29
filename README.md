@@ -30,7 +30,7 @@ I organized Active Directory around administrative boundaries rather than compan
 - `HR_Access` — access to HR resources
 - `ITSupport` — role based permissions for IT support staff
 
-*Custom OUs sorted to the top automatically using udnerscore prefix. Each one serves a specific administrative purpose. automatically using underscore prefixes.*
+*Custom OUs sorted to the top automatically using udnerscore prefix at the start. Each one serves a specific administrative purpose. automatically using underscore prefixes.*
 
 ![AD Structure](Screenshots/01-aduc.png)
 
@@ -98,7 +98,7 @@ Departments can change and as a result, people move roles. If the OU structure m
 Clicking through menus to manually create 20 accounts one by one is not scalable and would take too much time. The script handles the bulk user creation in seconds with an audit log, which is closer to how a real IT department would handle new hire onboarding.
 
 **Moved CLIENT01 to _Workstations before applying GPOs**  
-When a computer joins the domain it lands in the default Computers container, not in any custom OU. Any group policies linked to _Workstations do nothing if the computer is still sitting in the wrong place. Moving it first was the fix.
+When a computer joins the domain it lands in default Computers, not in any custom OU. Any group policies linked to _Workstations do nothing if the computer is still sitting in the wrong place. Moving it first was the fix.
 
 /  /  /  /  /
 
