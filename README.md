@@ -104,8 +104,10 @@ When a computer joins the domain it lands in default Computers, not in any custo
 
 ## In Action
 
+*Powershell script runs, log file confirms every account was created, Active Directory refreshes and all 20 users appear*
 ![Bulk Account Creation](GIFs/01-powershell.gif)
 
+*Logging in as mjohnson for the first time. Temporary password expires immediately and a new one is required before accessing the desktop.*
 ![Domain User Login](GIFs/02-domain-login.gif)
 
 /  /  /  /  /
