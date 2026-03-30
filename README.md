@@ -14,7 +14,7 @@ I built this lab to simulate what an IT technician would set up on day one at a 
 **Client Machine:** `CLIENT01` running Windows 10  
 **Virtualization:** VMware Workstation Pro (Windows Server 22)  
 
-/  /  /  /  /
+---
 
 ## Environment Structure
 
@@ -30,7 +30,7 @@ I organized Active Directory around administrative boundaries rather than compan
 - `HR_Access` — access to HR resources
 - `ITSupport` — role based permissions for IT support staff
 
-*Custom OUs sorted to the top automatically using udnerscore prefix at the start. Each one serves a specific administrative purpose. automatically using underscore prefixes.*
+*Custom OUs sorted to the top automatically using udnerscore prefix at the start. Each one serves a specific administrative purpose.*
 
 ![AD Structure](Screenshots/01-aduc.png)
 
