@@ -2,7 +2,7 @@
 
 A simulated enterprise IT environment built to practice real world Active Directory administration, Powershell automation, and Group policy management.
 
-/  /  /  /  /
+---
 
 ## What This Is
 
@@ -34,7 +34,7 @@ I organized Active Directory around administrative boundaries rather than compan
 
 ![AD Structure](Screenshots/01-aduc.png)
 
-/  /  /  /  /
+---
 
 ## Bulk Account Creation
 
@@ -52,7 +52,7 @@ Instead of manually creating accounts one by one I wrote a PowerShell script tha
 
 ![Users in Active Directory](Screenshots/04-standard-users.png)
 
-/  /  /  /  /
+---
 
 ## Group Policy Objects
 
@@ -70,7 +70,7 @@ Three separate GPOs linked to the `_Workstations` OU. I did not touch the Defaul
 
 ![GPO Applied on Client](Screenshots/07-gpresult.png)
 
-/  /  /  /  /
+---
 
 ## Verification
 
@@ -84,7 +84,7 @@ Joined a Windows 10 VM to the domain and confirmed everything was working from t
 
 ![User Properties and Group Membership](Screenshots/08-user-properties.png)
 
-/  /  /  /  /
+---
 
 ## Why I Built It This Way
 
@@ -100,7 +100,7 @@ Clicking through menus to manually create 20 accounts one by one is not scalable
 **Moved CLIENT01 to _Workstations before applying GPOs**  
 When a computer joins the domain it lands in default Computers, not in any custom OU. Any group policies linked to _Workstations do nothing if the computer is still sitting in the wrong place. Moving it first was the fix.
 
-/  /  /  /  /
+---
 
 ## In Action
 
@@ -110,7 +110,7 @@ When a computer joins the domain it lands in default Computers, not in any custo
 *Logging in as mjohnson for the first time. Temporary password expires immediately and a new one is required before accessing the desktop.*
 ![Domain User Login](GIFs/02-domain-login.gif)
 
-/  /  /  /  /
+---
 
 ## Runbook
 
@@ -118,7 +118,7 @@ Wrote a runbook to serve as documentation, similar to what you would find in a r
 
 [User Account Management](IT-Runbook.md)
 
-/  /  /  /  /
+---
 
 ## Tools Used
 
