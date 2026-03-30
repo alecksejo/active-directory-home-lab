@@ -23,4 +23,3 @@ You will need Domain Admin access on DC01 to do either of these.
 3. Right click the account and select **Disable Account**.
 4. Right click again, go to **Properties**, click **Member Of**, and remove all groups except Domain Users.
 5. Right click the account and select **Move** and move it to `_Terminated_Users`.
-6. Note the time and ticket number for your records.
