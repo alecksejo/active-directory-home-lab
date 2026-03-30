@@ -112,6 +112,14 @@ When a computer joins the domain it lands in default Computers, not in any custo
 
 /  /  /  /  /
 
+## Runbook
+
+Wrote a runbook to serve as documentation, similar to what you would find in a real IT department.
+
+[User Account Management](IT-Runbook.md)
+
+/  /  /  /  /
+
 ## Tools Used
 
 VMware Workstation Pro, Windows Server 2022, Windows 10, PowerShell ISE, Active Directory Users and Computers, Group Policy Management Console, DNS Manager
