@@ -18,8 +18,7 @@ I built this lab to simulate what an IT technician would set up on day one at a 
 
 ## Environment Structure
 
-I organized Active Directory around administrative boundaries rather than company departments. The OUs are for applying Group Policy and assigning permissions, not for mirroring an org chart.
-
+I chose to organize Active Directory around administrative permissions rather than the company departments. The OUs are for applying Group Policy and assigning permission.
 **Organizational Units**
 - `_Admin_Accounts` — privileged IT accounts with elevated permissions
 - `_Standard_Users` — all regular employees
